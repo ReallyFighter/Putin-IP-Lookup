@@ -80,7 +80,7 @@ def typingPrint(text):
 qip = typingInput('''What is the IP ?
 ''')
 
-#ip = get(f'http://ip-api.com/line/'+qip).text
+#getting information from ip api
 continent = get(f'http://ip-api.com/line/'+qip+"?fields=continent").text
 pays = get(f'http://ip-api.com/line/'+qip+"?fields=country").text
 region = get(f'http://ip-api.com/line/'+qip+"?fields=regionName").text
@@ -90,7 +90,7 @@ Pos = get(f'http://ip-api.com/line/'+qip+"?fields=lat").text
 Pos2 = get(f'http://ip-api.com/line/'+qip+"?fields=lon").text
 timezone = get(f'http://ip-api.com/line/'+qip+"?fields=timezone").text
 
-
+#printing results
 print('''
 ''')
 typingPrint('Continent:'+continent)
