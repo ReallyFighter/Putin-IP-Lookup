@@ -8,7 +8,6 @@ from urllib.request import Request, urlopen
 import keyboard
 import os 
 from requests import get
-from pystyle import Write
 import sys
 import time
 
