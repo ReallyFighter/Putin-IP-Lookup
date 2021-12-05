@@ -6,7 +6,7 @@ git clone this repo by using [this](https://git-scm.com/downloads).
 ```bash
 git clone https://github.com/ReallyFighter/Putin-IP-Lookup
 ```
-After this , launch requirements.bat
+After this , launch [requirements.bat](https://github.com/ReallyFighter/Putin-IP-Lookup/blob/main/requirements.bat)
 
 ## Usage
 Simply put the IP you want to have the informations.
